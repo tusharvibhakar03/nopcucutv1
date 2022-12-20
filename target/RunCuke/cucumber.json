@@ -1,0 +1,982 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5511794800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 778545800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 143386300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 825681000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99069100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"qwerty123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwerty123@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginPageSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84393500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"qazwsx12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qazwsx12",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 726993400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68432400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should besee the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginPageSteps.iShouldBeseeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 11,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2502626500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 757042100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 827321900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95605300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"xyz890@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz890@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginPageSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82901800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"qazwsx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qazwsx",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 721031500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47513500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should besee the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginPageSteps.iShouldBeseeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 11,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2685905900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 771946300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 45200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 860179800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on login link",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92333400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email \"qwerty@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwerty@gmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginPageSteps.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88241800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password \"qwerty123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwerty123",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageSteps.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322206900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41934000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should besee the error message \"Login was unsuccessful. Please correct the errors and try again.\nNo customer account found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.\nNo customer account found",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginPageSteps.iShouldBeseeTheErrorMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 11,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2221796100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify that firstname lastname email password and confirm password fields are mandatory",
+        "description": "",
+        "id": "login-test;verify-that-firstname-lastname-email-password-and-confirm-password-fields-are-mandatory;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 947744700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 44500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 857670900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78826400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107046000,
+              "error_message": "java.lang.AssertionError: error message is not displayed expected:\u003cnull\u003e but was:\u003cFirstName\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.nopcommerce.demo.cucumber.steps.RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(RegistrationSteps.java:32)\r\n\tat ✽.Then I should see the error message \"First name is required.\" for fieldName \"FirstName\"(RegisterPage.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I should see the error message \"First name is required.\" for fieldName \"FirstName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "First name is required.",
+                  "offset": 32
+                },
+                {
+                  "val": "FirstName",
+                  "offset": 72
+                }
+              ],
+              "location": "RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 12,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2680968600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify that firstname lastname email password and confirm password fields are mandatory",
+        "description": "",
+        "id": "login-test;verify-that-firstname-lastname-email-password-and-confirm-password-fields-are-mandatory;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 931133500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 435431700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73535100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90548300,
+              "error_message": "java.lang.AssertionError: error message is not displayed expected:\u003cnull\u003e but was:\u003cLastName\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.nopcommerce.demo.cucumber.steps.RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(RegistrationSteps.java:32)\r\n\tat ✽.Then I should see the error message \"Last name is required.\" for fieldName \"LastName\"(RegisterPage.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I should see the error message \"Last name is required.\" for fieldName \"LastName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Last name is required.",
+                  "offset": 32
+                },
+                {
+                  "val": "LastName",
+                  "offset": 71
+                }
+              ],
+              "location": "RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 12,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2251511600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify that firstname lastname email password and confirm password fields are mandatory",
+        "description": "",
+        "id": "login-test;verify-that-firstname-lastname-email-password-and-confirm-password-fields-are-mandatory;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 905807600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 450943600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72174700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93732500,
+              "error_message": "java.lang.AssertionError: error message is not displayed expected:\u003cnull\u003e but was:\u003cEmail\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.nopcommerce.demo.cucumber.steps.RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(RegistrationSteps.java:32)\r\n\tat ✽.Then I should see the error message \"Email is required.\" for fieldName \"Email\"(RegisterPage.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I should see the error message \"Email is required.\" for fieldName \"Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email is required.",
+                  "offset": 32
+                },
+                {
+                  "val": "Email",
+                  "offset": 67
+                }
+              ],
+              "location": "RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 12,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2808764800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify that firstname lastname email password and confirm password fields are mandatory",
+        "description": "",
+        "id": "login-test;verify-that-firstname-lastname-email-password-and-confirm-password-fields-are-mandatory;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 913867700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 912442700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80298000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86881800,
+              "error_message": "java.lang.AssertionError: error message is not displayed expected:\u003cnull\u003e but was:\u003cPassword\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.nopcommerce.demo.cucumber.steps.RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(RegistrationSteps.java:32)\r\n\tat ✽.Then I should see the error message \"Password is required.\" for fieldName \"Password\"(RegisterPage.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I should see the error message \"Password is required.\" for fieldName \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 32
+                },
+                {
+                  "val": "Password",
+                  "offset": 70
+                }
+              ],
+              "location": "RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 12,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2599450300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify that firstname lastname email password and confirm password fields are mandatory",
+        "description": "",
+        "id": "login-test;verify-that-firstname-lastname-email-password-and-confirm-password-fields-are-mandatory;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 916926200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 48900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {
+              "location": "LoginPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 859558700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on register link",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74189100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {
+              "location": "RegistrationSteps.iClickOnRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105411200,
+              "error_message": "java.lang.AssertionError: error message is not displayed expected:\u003cnull\u003e but was:\u003cConfirmPassword\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat com.nopcommerce.demo.cucumber.steps.RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(RegistrationSteps.java:32)\r\n\tat ✽.Then I should see the error message \"Password is required.\" for fieldName \"ConfirmPassword\"(RegisterPage.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "I should see the error message \"Password is required.\" for fieldName \"ConfirmPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 32
+                },
+                {
+                  "val": "ConfirmPassword",
+                  "offset": 70
+                }
+              ],
+              "location": "RegistrationSteps.iShouldSeeTheErrorMessageForFieldName(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 12,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "RegisterPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
